@@ -1,6 +1,6 @@
 * todomvc-webfui
 
-Port of [[http://todomvc.com/vanilla-examples/vanillajs/][TodoMVC VanillaJS]]  to [[https://github.com/drcode/webfui][iwebfui]].
+Port of [[http://todomvc.com/vanilla-examples/vanillajs/][TodoMVC VanillaJS]]  to [[https://github.com/drcode/webfui][webfui]].
 
 ** Prerequisites
 
