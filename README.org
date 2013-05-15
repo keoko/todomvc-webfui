@@ -1,0 +1,32 @@
+* todomvc-webfui
+
+Port of [[http://todomvc.com/vanilla-examples/vanillajs/][TodoMVC VanillaJS]]  to [[%20%5B%5Bwebfuihttps://github.com/webfui%5D%5D][webfui]].
+
+** Prerequisites
+
+You will need Leiningen[fn:1] 2.0 or above installed.
+
+[fn:1]: https://github.com/technomancy/leiningen
+
+** Running
+
+To start the application, run:
+
+    lein cljsbuild once
+    lein ring server
+
+After running these commands the application will be open in your default browser.
+
+** TODO
+- fix form-values watcher instead of creating a new watcher (i.e. input-text-watcher)
+- how to set the focus?
+- how to throw watch events?
+- don't return always the whole state, only the updated part
+- why it's calling 3 times render-all function after any change?
+- checkbox not properly updated
+  
+** License
+
+Copyright © 2013 Keoko
+
+Distributed under the Eclipse Public License, the same as Clojure.
