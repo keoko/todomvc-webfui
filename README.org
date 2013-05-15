@@ -1,12 +1,10 @@
 * todomvc-webfui
 
-Port of [[http://todomvc.com/vanilla-examples/vanillajs/][TodoMVC VanillaJS]]  to [[%20%5B%5Bwebfuihttps://github.com/webfui%5D%5D][webfui]].
+Port of [[http://todomvc.com/vanilla-examples/vanillajs/][TodoMVC VanillaJS]]  to [[https://github.com/drcode/webfui][iwebfui]].
 
 ** Prerequisites
 
-You will need Leiningen[fn:1] 2.0 or above installed.
-
-[fn:1]: https://github.com/technomancy/leiningen
+You will need [[https://github.com/technomancy/leiningen][Leiningen]] 2.0 or above installed.
 
 ** Running
 
